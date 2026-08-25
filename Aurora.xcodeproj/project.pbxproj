@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8A5E1252ED24D12000D977C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A5E1242ED24D12000D977C /* LoadingView.swift */; };
+		A8FBC5CE2ED200FE00BF1404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FBC5C72ED200FE00BF1404 /* Assets.xcassets */; };
+		A8FBC5D22ED200FE00BF1404 /* BotControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC59C2ED200FE00BF1404 /* BotControlService.swift */; };
+		A8FBC5D32ED200FE00BF1404 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5BC2ED200FE00BF1404 /* HeaderView.swift */; };
+		A8FBC5D42ED200FE00BF1404 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5C32ED200FE00BF1404 /* SettingsView.swift */; };
+		A8FBC5D62ED200FE00BF1404 /* SecurityLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5B22ED200FE00BF1404 /* SecurityLoginView.swift */; };
+		A8FBC5D72ED200FE00BF1404 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A02ED200FE00BF1404 /* NotificationManager.swift */; };
+		A8FBC5D92ED200FE00BF1404 /* StrategyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A52ED200FE00BF1404 /* StrategyService.swift */; };
+		A8FBC5DA2ED200FE00BF1404 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC59B2ED200FE00BF1404 /* AccountService.swift */; };
+		A8FBC5DB2ED200FE00BF1404 /* TradingAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5B42ED200FE00BF1404 /* TradingAccountView.swift */; };
+		A8FBC5DD2ED200FE00BF1404 /* MT5AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC59F2ED200FE00BF1404 /* MT5AccountService.swift */; };
+		A8FBC5DE2ED200FE00BF1404 /* StrategiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5B62ED200FE00BF1404 /* StrategiesView.swift */; };
+		A8FBC5E02ED200FE00BF1404 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5BD2ED200FE00BF1404 /* LoginView.swift */; };
+		A8FBC5E12ED200FE00BF1404 /* TradeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5882ED200FE00BF1404 /* TradeRow.swift */; };
+		A8FBC5E22ED200FE00BF1404 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A22ED200FE00BF1404 /* SessionManager.swift */; };
+		A8FBC5E42ED200FE00BF1404 /* BotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC59D2ED200FE00BF1404 /* BotManager.swift */; };
+		A8FBC5E52ED200FE00BF1404 /* PerformanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A12ED200FE00BF1404 /* PerformanceService.swift */; };
+		A8FBC5E62ED200FE00BF1404 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5962ED200FE00BF1404 /* Endpoints.swift */; };
+		A8FBC5E72ED200FE00BF1404 /* AboutAuroraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5AD2ED200FE00BF1404 /* AboutAuroraView.swift */; };
+		A8FBC5E82ED200FE00BF1404 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5B92ED200FE00BF1404 /* AnalyticsView.swift */; };
+		A8FBC5E92ED200FE00BF1404 /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC58C2ED200FE00BF1404 /* GlassButton.swift */; };
+		A8FBC5EB2ED200FE00BF1404 /* AuroraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5C82ED200FE00BF1404 /* AuroraApp.swift */; };
+		A8FBC5EC2ED200FE00BF1404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5BB2ED200FE00BF1404 /* ContentView.swift */; };
+		A8FBC5ED2ED200FE00BF1404 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC57F2ED200FE00BF1404 /* CustomTabBar.swift */; };
+		A8FBC5EE2ED200FE00BF1404 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC59E2ED200FE00BF1404 /* KeychainManager.swift */; };
+		A8FBC5EF2ED200FE00BF1404 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5972ED200FE00BF1404 /* HTTPClient.swift */; };
+		A8FBC5F12ED200FE00BF1404 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A92ED200FE00BF1404 /* WebSocketManager.swift */; };
+		A8FBC5F22ED200FE00BF1404 /* PositionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5832ED200FE00BF1404 /* PositionCard.swift */; };
+		A8FBC5F32ED200FE00BF1404 /* APIConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5AE2ED200FE00BF1404 /* APIConnectionsView.swift */; };
+		A8FBC5F42ED200FE00BF1404 /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC58E2ED200FE00BF1404 /* ShimmerEffect.swift */; };
+		A8FBC5F52ED200FE00BF1404 /* TradingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A82ED200FE00BF1404 /* TradingService.swift */; };
+		A8FBC5F82ED200FE00BF1404 /* PositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5C12ED200FE00BF1404 /* PositionsView.swift */; };
+		A8FBC5F92ED200FE00BF1404 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5862ED200FE00BF1404 /* SettingItem.swift */; };
+		A8FBC5FA2ED200FE00BF1404 /* RecentTradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5842ED200FE00BF1404 /* RecentTradesView.swift */; };
+		A8FBC5FB2ED200FE00BF1404 /* AuroraDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5912ED200FE00BF1404 /* AuroraDesignSystem.swift */; };
+		A8FBC5FC2ED200FE00BF1404 /* DataAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5B02ED200FE00BF1404 /* DataAnalyticsView.swift */; };
+		A8FBC5FD2ED200FE00BF1404 /* BotBehaviorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5AF2ED200FE00BF1404 /* BotBehaviorView.swift */; };
+		A8FBC5FE2ED200FE00BF1404 /* Models_Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5CB2ED200FE00BF1404 /* Models_Complete.swift */; };
+		A8FBC5FF2ED200FE00BF1404 /* ThemeAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5B32ED200FE00BF1404 /* ThemeAppearanceView.swift */; };
+		A8FBC6002ED200FE00BF1404 /* PulseIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC58D2ED200FE00BF1404 /* PulseIndicator.swift */; };
+		A8FBC6012ED200FE00BF1404 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5872ED200FE00BF1404 /* StatCard.swift */; };
+		A8FBC6022ED200FE00BF1404 /* LeafIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5812ED200FE00BF1404 /* LeafIcon.swift */; };
+		A8FBC6032ED200FE00BF1404 /* EquityCurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5802ED200FE00BF1404 /* EquityCurveView.swift */; };
+		A8FBC6042ED200FE00BF1404 /* PositionsView_Fixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5C22ED200FE00BF1404 /* PositionsView_Fixed.swift */; };
+		A8FBC6052ED200FE00BF1404 /* AmbientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5AB2ED200FE00BF1404 /* AmbientBackgroundView.swift */; };
+		A8FBC6082ED200FE00BF1404 /* Models+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5CC2ED200FE00BF1404 /* Models+Extensions.swift */; };
+		A8FBC6092ED200FE00BF1404 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5CA2ED200FE00BF1404 /* Models.swift */; };
+		A8FBC60A2ED200FE00BF1404 /* MetricRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5822ED200FE00BF1404 /* MetricRow.swift */; };
+		A8FBC60B2ED200FE00BF1404 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A62ED200FE00BF1404 /* ThemeManager.swift */; };
+		A8FBC60C2ED200FE00BF1404 /* AuroraCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC58B2ED200FE00BF1404 /* AuroraCard.swift */; };
+		A8FBC60E2ED200FE00BF1404 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5BF2ED200FE00BF1404 /* OverviewView.swift */; };
+		A8FBC60F2ED200FE00BF1404 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5982ED200FE00BF1404 /* NetworkManager.swift */; };
+		A8FBC6112ED200FE00BF1404 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5952ED200FE00BF1404 /* APIConfig.swift */; };
+		A8FBC6132ED200FE00BF1404 /* MinimalistLeafIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5BE2ED200FE00BF1404 /* MinimalistLeafIcon.swift */; };
+		A8FBC6142ED200FE00BF1404 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5B12ED200FE00BF1404 /* NotificationsView.swift */; };
+		A8FBC6152ED200FE00BF1404 /* SharedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A32ED200FE00BF1404 /* SharedDataService.swift */; };
+		A8FBC6162ED200FE00BF1404 /* StrategiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5A42ED200FE00BF1404 /* StrategiesService.swift */; };
+		A8FBC6172ED200FE00BF1404 /* BalanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5BA2ED200FE00BF1404 /* BalanceCardView.swift */; };
+		A8FBC6182ED200FE00BF1404 /* SettingField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC5852ED200FE00BF1404 /* SettingField.swift */; };
+		A8FBC6192ED200FE00BF1404 /* AnimatedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC58A2ED200FE00BF1404 /* AnimatedProgressBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A814DB7D2ECF73AC001ED704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A814DB672ECF73A9001ED704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A814DB6E2ECF73A9001ED704;
+			remoteInfo = Aurora;
+		};
+		A814DB872ECF73AC001ED704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A814DB672ECF73A9001ED704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A814DB6E2ECF73A9001ED704;
+			remoteInfo = Aurora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A814DB6F2ECF73A9001ED704 /* Aurora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aurora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A814DB7C2ECF73AC001ED704 /* AuroraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuroraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A814DB862ECF73AC001ED704 /* AuroraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuroraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A5E1242ED24D12000D977C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A8FBC57F2ED200FE00BF1404 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A8FBC5802ED200FE00BF1404 /* EquityCurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquityCurveView.swift; sourceTree = "<group>"; };
+		A8FBC5812ED200FE00BF1404 /* LeafIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafIcon.swift; sourceTree = "<group>"; };
+		A8FBC5822ED200FE00BF1404 /* MetricRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricRow.swift; sourceTree = "<group>"; };
+		A8FBC5832ED200FE00BF1404 /* PositionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionCard.swift; sourceTree = "<group>"; };
+		A8FBC5842ED200FE00BF1404 /* RecentTradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTradesView.swift; sourceTree = "<group>"; };
+		A8FBC5852ED200FE00BF1404 /* SettingField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingField.swift; sourceTree = "<group>"; };
+		A8FBC5862ED200FE00BF1404 /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		A8FBC5872ED200FE00BF1404 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		A8FBC5882ED200FE00BF1404 /* TradeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRow.swift; sourceTree = "<group>"; };
+		A8FBC58A2ED200FE00BF1404 /* AnimatedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedProgressBar.swift; sourceTree = "<group>"; };
+		A8FBC58B2ED200FE00BF1404 /* AuroraCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraCard.swift; sourceTree = "<group>"; };
+		A8FBC58C2ED200FE00BF1404 /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		A8FBC58D2ED200FE00BF1404 /* PulseIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseIndicator.swift; sourceTree = "<group>"; };
+		A8FBC58E2ED200FE00BF1404 /* ShimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffect.swift; sourceTree = "<group>"; };
+		A8FBC5912ED200FE00BF1404 /* AuroraDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraDesignSystem.swift; sourceTree = "<group>"; };
+		A8FBC5952ED200FE00BF1404 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		A8FBC5962ED200FE00BF1404 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		A8FBC5972ED200FE00BF1404 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		A8FBC5982ED200FE00BF1404 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A8FBC59B2ED200FE00BF1404 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		A8FBC59C2ED200FE00BF1404 /* BotControlService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotControlService.swift; sourceTree = "<group>"; };
+		A8FBC59D2ED200FE00BF1404 /* BotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotManager.swift; sourceTree = "<group>"; };
+		A8FBC59E2ED200FE00BF1404 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		A8FBC59F2ED200FE00BF1404 /* MT5AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MT5AccountService.swift; sourceTree = "<group>"; };
+		A8FBC5A02ED200FE00BF1404 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A8FBC5A12ED200FE00BF1404 /* PerformanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceService.swift; sourceTree = "<group>"; };
+		A8FBC5A22ED200FE00BF1404 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		A8FBC5A32ED200FE00BF1404 /* SharedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataService.swift; sourceTree = "<group>"; };
+		A8FBC5A42ED200FE00BF1404 /* StrategiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategiesService.swift; sourceTree = "<group>"; };
+		A8FBC5A52ED200FE00BF1404 /* StrategyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyService.swift; sourceTree = "<group>"; };
+		A8FBC5A62ED200FE00BF1404 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A8FBC5A82ED200FE00BF1404 /* TradingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingService.swift; sourceTree = "<group>"; };
+		A8FBC5A92ED200FE00BF1404 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		A8FBC5AB2ED200FE00BF1404 /* AmbientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientBackgroundView.swift; sourceTree = "<group>"; };
+		A8FBC5AD2ED200FE00BF1404 /* AboutAuroraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuroraView.swift; sourceTree = "<group>"; };
+		A8FBC5AE2ED200FE00BF1404 /* APIConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnectionsView.swift; sourceTree = "<group>"; };
+		A8FBC5AF2ED200FE00BF1404 /* BotBehaviorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotBehaviorView.swift; sourceTree = "<group>"; };
+		A8FBC5B02ED200FE00BF1404 /* DataAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAnalyticsView.swift; sourceTree = "<group>"; };
+		A8FBC5B12ED200FE00BF1404 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		A8FBC5B22ED200FE00BF1404 /* SecurityLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityLoginView.swift; sourceTree = "<group>"; };
+		A8FBC5B32ED200FE00BF1404 /* ThemeAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAppearanceView.swift; sourceTree = "<group>"; };
+		A8FBC5B42ED200FE00BF1404 /* TradingAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingAccountView.swift; sourceTree = "<group>"; };
+		A8FBC5B62ED200FE00BF1404 /* StrategiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategiesView.swift; sourceTree = "<group>"; };
+		A8FBC5B92ED200FE00BF1404 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		A8FBC5BA2ED200FE00BF1404 /* BalanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCardView.swift; sourceTree = "<group>"; };
+		A8FBC5BB2ED200FE00BF1404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8FBC5BC2ED200FE00BF1404 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A8FBC5BD2ED200FE00BF1404 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A8FBC5BE2ED200FE00BF1404 /* MinimalistLeafIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalistLeafIcon.swift; sourceTree = "<group>"; };
+		A8FBC5BF2ED200FE00BF1404 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		A8FBC5C12ED200FE00BF1404 /* PositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsView.swift; sourceTree = "<group>"; };
+		A8FBC5C22ED200FE00BF1404 /* PositionsView_Fixed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsView_Fixed.swift; sourceTree = "<group>"; };
+		A8FBC5C32ED200FE00BF1404 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A8FBC5C72ED200FE00BF1404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8FBC5C82ED200FE00BF1404 /* AuroraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraApp.swift; sourceTree = "<group>"; };
+		A8FBC5C92ED200FE00BF1404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FBC5CA2ED200FE00BF1404 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A8FBC5CB2ED200FE00BF1404 /* Models_Complete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models_Complete.swift; sourceTree = "<group>"; };
+		A8FBC5CC2ED200FE00BF1404 /* Models+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A814DB6C2ECF73A9001ED704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB792ECF73AC001ED704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB832ECF73AC001ED704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A814DB662ECF73A9001ED704 = {
+			isa = PBXGroup;
+			children = (
+				A8FBC5CD2ED200FE00BF1404 /* Aurora */,
+				A814DB702ECF73A9001ED704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A814DB702ECF73A9001ED704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A814DB6F2ECF73A9001ED704 /* Aurora.app */,
+				A814DB7C2ECF73AC001ED704 /* AuroraTests.xctest */,
+				A814DB862ECF73AC001ED704 /* AuroraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8FBC5892ED200FE00BF1404 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC57F2ED200FE00BF1404 /* CustomTabBar.swift */,
+				A8FBC5802ED200FE00BF1404 /* EquityCurveView.swift */,
+				A8FBC5812ED200FE00BF1404 /* LeafIcon.swift */,
+				A8FBC5822ED200FE00BF1404 /* MetricRow.swift */,
+				A8FBC5832ED200FE00BF1404 /* PositionCard.swift */,
+				A8FBC5842ED200FE00BF1404 /* RecentTradesView.swift */,
+				A8FBC5852ED200FE00BF1404 /* SettingField.swift */,
+				A8FBC5862ED200FE00BF1404 /* SettingItem.swift */,
+				A8FBC5872ED200FE00BF1404 /* StatCard.swift */,
+				A8FBC5882ED200FE00BF1404 /* TradeRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A8FBC58F2ED200FE00BF1404 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC58A2ED200FE00BF1404 /* AnimatedProgressBar.swift */,
+				A8FBC58B2ED200FE00BF1404 /* AuroraCard.swift */,
+				A8FBC58C2ED200FE00BF1404 /* GlassButton.swift */,
+				A8FBC58D2ED200FE00BF1404 /* PulseIndicator.swift */,
+				A8FBC58E2ED200FE00BF1404 /* ShimmerEffect.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A8FBC5902ED200FE00BF1404 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		A8FBC5922ED200FE00BF1404 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC58F2ED200FE00BF1404 /* Components */,
+				A8FBC5902ED200FE00BF1404 /* Modifiers */,
+				A8FBC5912ED200FE00BF1404 /* AuroraDesignSystem.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		A8FBC5942ED200FE00BF1404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8FBC59A2ED200FE00BF1404 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC5952ED200FE00BF1404 /* APIConfig.swift */,
+				A8FBC5962ED200FE00BF1404 /* Endpoints.swift */,
+				A8FBC5972ED200FE00BF1404 /* HTTPClient.swift */,
+				A8FBC5982ED200FE00BF1404 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A8FBC5AA2ED200FE00BF1404 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC59B2ED200FE00BF1404 /* AccountService.swift */,
+				A8FBC59C2ED200FE00BF1404 /* BotControlService.swift */,
+				A8FBC59D2ED200FE00BF1404 /* BotManager.swift */,
+				A8FBC59E2ED200FE00BF1404 /* KeychainManager.swift */,
+				A8FBC59F2ED200FE00BF1404 /* MT5AccountService.swift */,
+				A8FBC5A02ED200FE00BF1404 /* NotificationManager.swift */,
+				A8FBC5A12ED200FE00BF1404 /* PerformanceService.swift */,
+				A8FBC5A22ED200FE00BF1404 /* SessionManager.swift */,
+				A8FBC5A32ED200FE00BF1404 /* SharedDataService.swift */,
+				A8FBC5A42ED200FE00BF1404 /* StrategiesService.swift */,
+				A8FBC5A52ED200FE00BF1404 /* StrategyService.swift */,
+				A8FBC5A62ED200FE00BF1404 /* ThemeManager.swift */,
+				A8FBC5A82ED200FE00BF1404 /* TradingService.swift */,
+				A8FBC5A92ED200FE00BF1404 /* WebSocketManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A8FBC5AC2ED200FE00BF1404 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC5AB2ED200FE00BF1404 /* AmbientBackgroundView.swift */,
+				A8A5E1242ED24D12000D977C /* LoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A8FBC5B52ED200FE00BF1404 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC5AD2ED200FE00BF1404 /* AboutAuroraView.swift */,
+				A8FBC5AE2ED200FE00BF1404 /* APIConnectionsView.swift */,
+				A8FBC5AF2ED200FE00BF1404 /* BotBehaviorView.swift */,
+				A8FBC5B02ED200FE00BF1404 /* DataAnalyticsView.swift */,
+				A8FBC5B12ED200FE00BF1404 /* NotificationsView.swift */,
+				A8FBC5B22ED200FE00BF1404 /* SecurityLoginView.swift */,
+				A8FBC5B32ED200FE00BF1404 /* ThemeAppearanceView.swift */,
+				A8FBC5B42ED200FE00BF1404 /* TradingAccountView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A8FBC5B72ED200FE00BF1404 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC5B62ED200FE00BF1404 /* StrategiesView.swift */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+		A8FBC5C62ED200FE00BF1404 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC5AC2ED200FE00BF1404 /* Components */,
+				A8FBC5B52ED200FE00BF1404 /* Settings */,
+				A8FBC5B72ED200FE00BF1404 /* Strategies */,
+				A8FBC5B92ED200FE00BF1404 /* AnalyticsView.swift */,
+				A8FBC5BA2ED200FE00BF1404 /* BalanceCardView.swift */,
+				A8FBC5BB2ED200FE00BF1404 /* ContentView.swift */,
+				A8FBC5BC2ED200FE00BF1404 /* HeaderView.swift */,
+				A8FBC5BD2ED200FE00BF1404 /* LoginView.swift */,
+				A8FBC5BE2ED200FE00BF1404 /* MinimalistLeafIcon.swift */,
+				A8FBC5BF2ED200FE00BF1404 /* OverviewView.swift */,
+				A8FBC5C12ED200FE00BF1404 /* PositionsView.swift */,
+				A8FBC5C22ED200FE00BF1404 /* PositionsView_Fixed.swift */,
+				A8FBC5C32ED200FE00BF1404 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8FBC5CD2ED200FE00BF1404 /* Aurora */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC5892ED200FE00BF1404 /* Components */,
+				A8FBC5922ED200FE00BF1404 /* DesignSystem */,
+				A8FBC5942ED200FE00BF1404 /* Models */,
+				A8FBC59A2ED200FE00BF1404 /* Network */,
+				A8FBC5AA2ED200FE00BF1404 /* Services */,
+				A8FBC5C62ED200FE00BF1404 /* Views */,
+				A8FBC5C72ED200FE00BF1404 /* Assets.xcassets */,
+				A8FBC5C82ED200FE00BF1404 /* AuroraApp.swift */,
+				A8FBC5C92ED200FE00BF1404 /* Info.plist */,
+				A8FBC5CA2ED200FE00BF1404 /* Models.swift */,
+				A8FBC5CB2ED200FE00BF1404 /* Models_Complete.swift */,
+				A8FBC5CC2ED200FE00BF1404 /* Models+Extensions.swift */,
+			);
+			path = Aurora;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A814DB6E2ECF73A9001ED704 /* Aurora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A814DB902ECF73AC001ED704 /* Build configuration list for PBXNativeTarget "Aurora" */;
+			buildPhases = (
+				A814DB6B2ECF73A9001ED704 /* Sources */,
+				A814DB6C2ECF73A9001ED704 /* Frameworks */,
+				A814DB6D2ECF73A9001ED704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aurora;
+			packageProductDependencies = (
+			);
+			productName = Aurora;
+			productReference = A814DB6F2ECF73A9001ED704 /* Aurora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A814DB7B2ECF73AC001ED704 /* AuroraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A814DB932ECF73AC001ED704 /* Build configuration list for PBXNativeTarget "AuroraTests" */;
+			buildPhases = (
+				A814DB782ECF73AC001ED704 /* Sources */,
+				A814DB792ECF73AC001ED704 /* Frameworks */,
+				A814DB7A2ECF73AC001ED704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A814DB7E2ECF73AC001ED704 /* PBXTargetDependency */,
+			);
+			name = AuroraTests;
+			packageProductDependencies = (
+			);
+			productName = AuroraTests;
+			productReference = A814DB7C2ECF73AC001ED704 /* AuroraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A814DB852ECF73AC001ED704 /* AuroraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A814DB962ECF73AC001ED704 /* Build configuration list for PBXNativeTarget "AuroraUITests" */;
+			buildPhases = (
+				A814DB822ECF73AC001ED704 /* Sources */,
+				A814DB832ECF73AC001ED704 /* Frameworks */,
+				A814DB842ECF73AC001ED704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A814DB882ECF73AC001ED704 /* PBXTargetDependency */,
+			);
+			name = AuroraUITests;
+			packageProductDependencies = (
+			);
+			productName = AuroraUITests;
+			productReference = A814DB862ECF73AC001ED704 /* AuroraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A814DB672ECF73A9001ED704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					A814DB6E2ECF73A9001ED704 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					A814DB7B2ECF73AC001ED704 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = A814DB6E2ECF73A9001ED704;
+					};
+					A814DB852ECF73AC001ED704 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = A814DB6E2ECF73A9001ED704;
+					};
+				};
+			};
+			buildConfigurationList = A814DB6A2ECF73A9001ED704 /* Build configuration list for PBXProject "Aurora" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A814DB662ECF73A9001ED704;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A814DB702ECF73A9001ED704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A814DB6E2ECF73A9001ED704 /* Aurora */,
+				A814DB7B2ECF73AC001ED704 /* AuroraTests */,
+				A814DB852ECF73AC001ED704 /* AuroraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A814DB6D2ECF73A9001ED704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FBC5CE2ED200FE00BF1404 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB7A2ECF73AC001ED704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB842ECF73AC001ED704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A814DB6B2ECF73A9001ED704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FBC5D22ED200FE00BF1404 /* BotControlService.swift in Sources */,
+				A8FBC5D32ED200FE00BF1404 /* HeaderView.swift in Sources */,
+				A8FBC5D42ED200FE00BF1404 /* SettingsView.swift in Sources */,
+				A8FBC5D62ED200FE00BF1404 /* SecurityLoginView.swift in Sources */,
+				A8FBC5D72ED200FE00BF1404 /* NotificationManager.swift in Sources */,
+				A8FBC5D92ED200FE00BF1404 /* StrategyService.swift in Sources */,
+				A8FBC5DA2ED200FE00BF1404 /* AccountService.swift in Sources */,
+				A8FBC5DB2ED200FE00BF1404 /* TradingAccountView.swift in Sources */,
+				A8A5E1252ED24D12000D977C /* LoadingView.swift in Sources */,
+				A8FBC5DD2ED200FE00BF1404 /* MT5AccountService.swift in Sources */,
+				A8FBC5DE2ED200FE00BF1404 /* StrategiesView.swift in Sources */,
+				A8FBC5E02ED200FE00BF1404 /* LoginView.swift in Sources */,
+				A8FBC5E12ED200FE00BF1404 /* TradeRow.swift in Sources */,
+				A8FBC5E22ED200FE00BF1404 /* SessionManager.swift in Sources */,
+				A8FBC5E42ED200FE00BF1404 /* BotManager.swift in Sources */,
+				A8FBC5E52ED200FE00BF1404 /* PerformanceService.swift in Sources */,
+				A8FBC5E62ED200FE00BF1404 /* Endpoints.swift in Sources */,
+				A8FBC5E72ED200FE00BF1404 /* AboutAuroraView.swift in Sources */,
+				A8FBC5E82ED200FE00BF1404 /* AnalyticsView.swift in Sources */,
+				A8FBC5E92ED200FE00BF1404 /* GlassButton.swift in Sources */,
+				A8FBC5EB2ED200FE00BF1404 /* AuroraApp.swift in Sources */,
+				A8FBC5EC2ED200FE00BF1404 /* ContentView.swift in Sources */,
+				A8FBC5ED2ED200FE00BF1404 /* CustomTabBar.swift in Sources */,
+				A8FBC5EE2ED200FE00BF1404 /* KeychainManager.swift in Sources */,
+				A8FBC5EF2ED200FE00BF1404 /* HTTPClient.swift in Sources */,
+				A8FBC5F12ED200FE00BF1404 /* WebSocketManager.swift in Sources */,
+				A8FBC5F22ED200FE00BF1404 /* PositionCard.swift in Sources */,
+				A8FBC5F32ED200FE00BF1404 /* APIConnectionsView.swift in Sources */,
+				A8FBC5F42ED200FE00BF1404 /* ShimmerEffect.swift in Sources */,
+				A8FBC5F52ED200FE00BF1404 /* TradingService.swift in Sources */,
+				A8FBC5F82ED200FE00BF1404 /* PositionsView.swift in Sources */,
+				A8FBC5F92ED200FE00BF1404 /* SettingItem.swift in Sources */,
+				A8FBC5FA2ED200FE00BF1404 /* RecentTradesView.swift in Sources */,
+				A8FBC5FB2ED200FE00BF1404 /* AuroraDesignSystem.swift in Sources */,
+				A8FBC5FC2ED200FE00BF1404 /* DataAnalyticsView.swift in Sources */,
+				A8FBC5FD2ED200FE00BF1404 /* BotBehaviorView.swift in Sources */,
+				A8FBC5FE2ED200FE00BF1404 /* Models_Complete.swift in Sources */,
+				A8FBC5FF2ED200FE00BF1404 /* ThemeAppearanceView.swift in Sources */,
+				A8FBC6002ED200FE00BF1404 /* PulseIndicator.swift in Sources */,
+				A8FBC6012ED200FE00BF1404 /* StatCard.swift in Sources */,
+				A8FBC6022ED200FE00BF1404 /* LeafIcon.swift in Sources */,
+				A8FBC6032ED200FE00BF1404 /* EquityCurveView.swift in Sources */,
+				A8FBC6042ED200FE00BF1404 /* PositionsView_Fixed.swift in Sources */,
+				A8FBC6052ED200FE00BF1404 /* AmbientBackgroundView.swift in Sources */,
+				A8FBC6082ED200FE00BF1404 /* Models+Extensions.swift in Sources */,
+				A8FBC6092ED200FE00BF1404 /* Models.swift in Sources */,
+				A8FBC60A2ED200FE00BF1404 /* MetricRow.swift in Sources */,
+				A8FBC60B2ED200FE00BF1404 /* ThemeManager.swift in Sources */,
+				A8FBC60C2ED200FE00BF1404 /* AuroraCard.swift in Sources */,
+				A8FBC60E2ED200FE00BF1404 /* OverviewView.swift in Sources */,
+				A8FBC60F2ED200FE00BF1404 /* NetworkManager.swift in Sources */,
+				A8FBC6112ED200FE00BF1404 /* APIConfig.swift in Sources */,
+				A8FBC6132ED200FE00BF1404 /* MinimalistLeafIcon.swift in Sources */,
+				A8FBC6142ED200FE00BF1404 /* NotificationsView.swift in Sources */,
+				A8FBC6152ED200FE00BF1404 /* SharedDataService.swift in Sources */,
+				A8FBC6162ED200FE00BF1404 /* StrategiesService.swift in Sources */,
+				A8FBC6172ED200FE00BF1404 /* BalanceCardView.swift in Sources */,
+				A8FBC6182ED200FE00BF1404 /* SettingField.swift in Sources */,
+				A8FBC6192ED200FE00BF1404 /* AnimatedProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB782ECF73AC001ED704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB822ECF73AC001ED704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A814DB7E2ECF73AC001ED704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A814DB6E2ECF73A9001ED704 /* Aurora */;
+			targetProxy = A814DB7D2ECF73AC001ED704 /* PBXContainerItemProxy */;
+		};
+		A814DB882ECF73AC001ED704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A814DB6E2ECF73A9001ED704 /* Aurora */;
+			targetProxy = A814DB872ECF73AC001ED704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A814DB8E2ECF73AC001ED704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A814DB8F2ECF73AC001ED704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A814DB912ECF73AC001ED704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eden.joseph.Aurora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A814DB922ECF73AC001ED704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eden.joseph.Aurora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A814DB942ECF73AC001ED704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eden.joseph.AuroraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aurora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aurora";
+			};
+			name = Debug;
+		};
+		A814DB952ECF73AC001ED704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eden.joseph.AuroraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aurora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aurora";
+			};
+			name = Release;
+		};
+		A814DB972ECF73AC001ED704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eden.joseph.AuroraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aurora;
+			};
+			name = Debug;
+		};
+		A814DB982ECF73AC001ED704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HF4C9TYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eden.joseph.AuroraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aurora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A814DB6A2ECF73A9001ED704 /* Build configuration list for PBXProject "Aurora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB8E2ECF73AC001ED704 /* Debug */,
+				A814DB8F2ECF73AC001ED704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A814DB902ECF73AC001ED704 /* Build configuration list for PBXNativeTarget "Aurora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB912ECF73AC001ED704 /* Debug */,
+				A814DB922ECF73AC001ED704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A814DB932ECF73AC001ED704 /* Build configuration list for PBXNativeTarget "AuroraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB942ECF73AC001ED704 /* Debug */,
+				A814DB952ECF73AC001ED704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A814DB962ECF73AC001ED704 /* Build configuration list for PBXNativeTarget "AuroraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB972ECF73AC001ED704 /* Debug */,
+				A814DB982ECF73AC001ED704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A814DB672ECF73A9001ED704 /* Project object */;
+}
